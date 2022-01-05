@@ -6,5 +6,5 @@ const taskPath = path.join(__dirname, "tasks");
 fs.readdirSync(taskPath).forEach((file) => {
   const task = require("./tasks/" + file);
 
-  schedule.scheduleJob(task.cron(), task.handle);
+  schedule.scheduleJob(task.cron, task.handle);
 });
