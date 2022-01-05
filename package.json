@@ -1,0 +1,28 @@
+{
+  "name": "ExpressMVC",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "@adonisjs/ace": "^11.0.5",
+    "artesa": "^0.4.3",
+    "body-parser": "^1.19.1",
+    "chalk": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "inquirer": "^8.2.0",
+    "mongoose": "^6.1.4",
+    "node-schedule": "^2.1.0",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
+  },
+  "scripts": {
+    "prettier:fix": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "serve": "nodemon server.js"
+  }
+}
