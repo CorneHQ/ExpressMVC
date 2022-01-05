@@ -14,10 +14,10 @@ A simple MVC structure with ExpressJS with features as autoload middleware and a
 Clone the repository
 
 ```sh
-git clone - insert url here -
+git clone https://github.com/CorneHQ/ExpressMVC.git
 ```
 
-Or [download]() directly as a zip file
+Or [download](https://github.com/CorneHQ/ExpressMVC/archive/refs/heads/main.zip) directly as a zip file
 
 ### Installing the project
 
