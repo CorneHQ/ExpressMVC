@@ -20,6 +20,7 @@
   "scripts": {
     "prettier:fix": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "serve": "nodemon server.js"
+    "serve:dev": "nodemon server.js",
+    "serve": "node server.js"
   }
 }
